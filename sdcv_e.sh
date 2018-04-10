@@ -2,12 +2,12 @@
 function interactMode()
 {
 # 交互模式，循环查词，当命令没有跟参数时使用。
-	echo "记住查qqq这个单词启以退出我"
+	echo "记住查qq这个单词启以退出我"
 	local word=""
-	while [ "$word" != "qqq" ]
+	while [ "$word" != "qq" ]
 	do
 		read -p "请输入单词: " word
-		if [ "$word" = "qqq" ]
+		if [ "$word" = "qq" ]
 		then
 			break
 		fi
